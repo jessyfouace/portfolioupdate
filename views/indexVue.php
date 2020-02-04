@@ -9,7 +9,7 @@ include("template/header.php"); ?>
 
     <div class="col-12 m-0 p-0 mb-5 row">
 
-      <div class="col-md-3 col-11 mx-auto m-0 mb-2 p-0">
+      <div class="col-md-3 col-8 mx-auto m-0 mb-2 p-0">
         <a href="" id="effecthover1" class="effecttext text-center col-11 text-center mx-auto m-0 p-0">
           <img id="effectimage1" onmouseover="cardAnimation(this.parentNode.id)" src="assets/img/easybuy.jpg" alt="" class="col-12 col-md-11 m-0 p-0" style="height: 300px;">
           <div id="effecttext1" onmouseout="removeCardAnimation(this.parentNode.id)" class="d-none col-12 col-md-11 m-0 p-0" style="height: 300px;">
@@ -20,9 +20,9 @@ include("template/header.php"); ?>
         </a>
       </div>
 
-      <div class="col-md-3 col-11 mx-auto m-0 mb-2 p-0">
+      <div class="col-md-3 col-8 mx-auto m-0 mb-2 p-0">
         <a href="" id="effecthover2" class="effecttext text-center col-11 text-center mx-auto m-0 p-0">
-          <img id="effectimage2" onmouseover="cardAnimation(this.parentNode.id)" src="https://image.shutterstock.com/image-vector/no-image-available-sign-internet-600w-261719003.jpg" alt="" class="col-12 col-md-11 m-0 p-0" style="height: 300px;">
+          <img id="effectimage2" onmouseover="cardAnimation(this.parentNode.id)" src="assets/img/behance.jpg" alt="" class="col-12 col-md-11 m-0 p-0" style="height: 300px;">
           <div id="effecttext2" onmouseout="removeCardAnimation(this.parentNode.id)" class="d-none col-12 col-md-11 m-0 p-0" style="height: 300px;">
             <div class="d-flex col-12 m-0 p-0" style="height: 300px;">
               <p class="my-auto mx-auto text-white"><i class="fas fa-search-plus fa-3x"></i></p>
@@ -31,9 +31,9 @@ include("template/header.php"); ?>
         </a>
       </div>
 
-      <div class="col-md-3 col-11 mx-auto m-0 mb-2 p-0">
+      <div class="col-md-3 col-8 mx-auto m-0 mb-2 p-0">
         <a href="" id="effecthover3" class="effecttext text-center col-11 text-center mx-auto m-0 p-0">
-          <img id="effectimage3" onmouseover="cardAnimation(this.parentNode.id)" src="https://image.shutterstock.com/image-vector/no-image-available-sign-internet-600w-261719003.jpg" alt="" class="col-12 col-md-11 m-0 p-0" style="height: 300px;">
+          <img id="effectimage3" onmouseover="cardAnimation(this.parentNode.id)" src="assets/img/calove.jpg" alt="" class="col-12 col-md-11 m-0 p-0" style="height: 300px;">
           <div id="effecttext3" onmouseout="removeCardAnimation(this.parentNode.id)" class="d-none col-12 col-md-11 m-0 p-0" style="height: 300px;">
             <div class="d-flex col-12 m-0 p-0" style="height: 300px;">
               <p class="my-auto mx-auto text-white"><i class="fas fa-search-plus fa-3x"></i></p>
@@ -42,9 +42,9 @@ include("template/header.php"); ?>
         </a>
       </div>
 
-      <div class="col-md-3 col-11 mx-auto m-0 mb-2 p-0">
+      <div class="col-md-3 col-8 mx-auto m-0 mb-2 p-0">
         <a href="" id="effecthover4" class="effecttext text-center col-11 text-center mx-auto m-0 p-0">
-          <img id="effectimage4" onmouseover="cardAnimation(this.parentNode.id)" src="https://image.shutterstock.com/image-vector/no-image-available-sign-internet-600w-261719003.jpg" alt="" class="col-12 col-md-11 m-0 p-0" style="height: 300px;">
+          <img id="effectimage4" onmouseover="cardAnimation(this.parentNode.id)" src="assets/img/portfolio.jpg" alt="" class="col-12 col-md-11 m-0 p-0" style="height: 300px;">
           <div id="effecttext4" onmouseout="removeCardAnimation(this.parentNode.id)" class="d-none col-12 col-md-11 m-0 p-0" style="height: 300px;">
             <div class="d-flex col-12 m-0 p-0" style="height: 300px;">
               <p class="my-auto mx-auto text-white"><i class="fas fa-search-plus fa-3x"></i></p>
