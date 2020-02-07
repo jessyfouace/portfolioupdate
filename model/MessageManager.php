@@ -41,4 +41,49 @@ class MessageManager
 
         return $this->getBdd()->lastInsertId();
     }
+
+    public function getMessages()
+    {
+        $query = $this->getBdd()->prepare('SELECT * FROM message');
+        $query->execute();
+        $allMessages = $query->fetchAll(PDO::FETCH_ASSOC);
+
+        $arrayOfMessages = [];
+        foreach ($allMessages as $message) {
+            $arrayOfMessages[] = new Messages($message);
+        }
+
+        $arrayLength = count($arrayOfMessages);
+        if ($arrayLength >= 1) {
+            return $arrayOfMessages;
+        }
+    }
+
+    public function getMessageById($idMessage)
+    {
+        $idMessage = (int) $idMessage;
+        $query = $this->getBdd()->prepare('SELECT * FROM message WHERE idMessage = :idMessage');
+        $query->bindValue('idMessage', $idMessage, PDO::PARAM_INT);
+        $query->execute();
+        $messages = $query->fetchAll(PDO::FETCH_ASSOC);
+        
+        $arrayOfMessage = [];
+
+        foreach ($messages as $message) {
+            $arrayOfMessage[] = new Messages($message);
+        }
+
+        $arrayLength = count($arrayOfMessage);
+        if ($arrayLength >= 1) {
+            return $arrayOfMessage;
+        }
+    }
+
+    public function deleteMessageById($id)
+    {
+        $id = (int) $id;
+        $query = $this->getBdd()->prepare('DELETE FROM message WHERE idMessage = :idMessage');
+        $query->bindValue('idMessage', $id,PDO::PARAM_INT);
+        $query->execute();
+    }
 }

@@ -102,7 +102,7 @@ include("template/header.php"); ?>
     </div>
 
     <div class="mt-5">
-      <p class="text-white">
+      <p class="text-white p-4">
         Après plusieurs études différentes (Méchanique automobile, maintenance électrique, Maintenance Balise GPS...) je me suis tourné vers de l'autodidacte Développement Web ainsi que le développement scripts pour des jeux vidéos.<br><br>
         Suite à ça souhaitant approfondir mes connaissances, je me suis inscrit chez Vitamine T afin de faire la formation Développeur Web / Application Mobile (Powered By Simplon.co).<br><br>
         Grâce à cette formation j'ai pu approfondir mes connaissances dans différentes technologies (HTML / CSS (Bootstrap4) / PHP / JavaScript / JSON …). Suite à cette formation j'ai développé des projets personnels afin de travailler ma logique ainsi que ma connaissances de ses langages.
