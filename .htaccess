@@ -1,6 +1,8 @@
 Options +FollowSymlinks
 RewriteEngine on
 RewriteRule ^accueil$ controllers/index.php [L,QSA]
+RewriteRule ^connection$ controllers/connection.php [L,QSA]
+RewriteRule ^pannel$ controllers/pannel.php [L,QSA]
 # RewriteRule ^biens/([0-9]+)$ controllers/moreHouse.php?page=$1 [L,QSA]
 # RewriteRule ^biens/([0-9]+)/([a-zA-Z\-]+)$ controllers/moreHouse.php?page=$1&departments=$2 [L,QSA]
 # RewriteRule ^detail/([a-zA-Z0-9\-]+)$ controllers/houseInfo.php?houseIdentification=$1 [L,QSA]
