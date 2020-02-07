@@ -51,6 +51,9 @@
           <a href="accueil#realisations" class="p-2 text-white sizelink">Réalisations</a>
           <a href="accueil#about" class="p-2 text-white sizelink">A propos</a>
           <a href="accueil#contact" class="p-2 text-white sizelink">Contacter</a>
+        <?php if(isset($_SESSION['mail'])) { ?>
+          <a href="pannel" class="p-2 text-white sizelink">Pannel</a>
+        <?php } ?>
         </div>
       </div>
 

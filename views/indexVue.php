@@ -136,8 +136,8 @@ include("template/header.php"); ?>
         <input class="effect-1 col-12 m-0 bg-form text-white" id="inputMail" type="email" name="mail" value="<?= $mail ?>" placeholder="E-mail (Obligatoire)" required>
         <span class="focus-border"></span>
       </div>
-      <textarea class="effect-1 col-12 m-0 bg-form text-white mt-2" id="inputMessage" name="message" placeholder="Sujet.. (Obligatoire)" cols="30" rows="5" required><?= strip_tags($messages, "<br />"); ?></textarea>
       <div class="col-11 mx-auto m-0 p-0 colorwhite mt-2">
+        <textarea class="effect-1 col-12 m-0 bg-form text-white mt-2" id="inputMessage" name="message" placeholder="Sujet.. (Obligatoire)" cols="30" rows="5" required><?= strip_tags($messages, "<br />"); ?></textarea>
         <span class="focus-border"></span>
       </div>
       <div class="col-5 mx-auto m-0 mb-5 mt-2 p-0 d-flex">
