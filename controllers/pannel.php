@@ -30,6 +30,9 @@ if (isset($_SESSION['mail'])) {
             header('location: accueil');
             session_destroy();
         }
+    } else {
+        header('location: accueil');
+        session_destroy();
     }
 } else {
     header('location: accueil');
